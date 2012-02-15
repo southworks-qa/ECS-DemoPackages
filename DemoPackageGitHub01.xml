@@ -39,17 +39,17 @@
       <Id>WindowsAzure</Id>
       <Name>Windows Azure</Name>
       <Labs>
-        <Lab>..\..\Labs\ECSTesting\Lab1TestUpdate2</Lab> <!-- Updated -->
-        <Lab>..\..\Labs\ECSTesting\Lab2TestUpdate2</Lab> <!-- Updated -->
+        <Lab>..\ECS-SingleContent.git</Lab> <!-- Updated -->
+        <Lab>..\ECS-Contents.git\Labs\ECSTesting\Lab2Test</Lab> <!-- Updated -->
       </Labs>
       <Demos>
-        <Demo>..\..\Demos\ECSTesting\Demo1TestUpdate2</Demo> <!-- Updated -->
+        <Demo>..\ECS-Contents.git\Demos\ECSTesting\Demo1Test</Demo> <!-- Updated -->
       </Demos>
       <Presentations>
-		<Presentation>..\..\Presentations\ECSTesting\Presentation1TestUpdate2</Presentation> <!-- Updated -->
+		<Presentation>..\ECS-Contents.git\Presentations\ECSTesting\Presentation1Test</Presentation> <!-- Updated -->
       </Presentations>
       <Videos>
-		<Video>..\..\Videos\ECSTesting\Video1TestUpdate</Video> <!-- Updated -->
+		<Video>..\ECS-Contents.git\Videos\ECSTesting\Video1Test</Video> <!-- Updated -->
       </Videos>
     </Unit>
   </Units>
