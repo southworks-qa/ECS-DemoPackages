@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/ContentFramework.Core.Models">
+  <Description>The Windows Azure Platform Training Kit includes a comprehensive set of technical content including samples, demos, hands-on labs, and presentations that are designed to help you quickly learn how to use Windows Azure, SQL Azure, and the Windows Azure AppFabric.  This release provides updated content as related to the Windows Azure Tools for Microsoft Visual Studio 1.3 and Windows Azure platform AppFabric SDK V2.0 (October update).  Some of the new hands-on labs cover the new and updated services announced at the Professional Developers Conference (http://microsoftpdc.com) including the Windows Azure AppFabric Access Control Service, Caching Service, and the Service Bus.  Additional content will be included in future updates.</Description>
+  <Id>DemoTrainingCourse</Id>
+  <Version>4.0</Version>
+  <Name>Demo Training Course</Name>
+  <DownloadUrl>http://go.microsoft.com/fwlink/?LinkID=130354</DownloadUrl>
+  <Overview>
+    <Author>
+      <Blog>
+      </Blog>
+      <Email>
+      </Email>
+      <Name>Microsoft Developer and Platform Evangelism</Name>
+    </Author>
+    <Description>Windows Azure Platform Training Kit</Description>
+    <Document>
+    </Document>
+    <Title>Windows Azure Platform Training Kit</Title>
+    <Version>December Update</Version>
+  </Overview>
+  <RelatedResources/>
+  <Prerequisites>
+    <Group Name="Common Prerequisites" Order="1" Description="">
+      <Prerequisites>
+        <Prerequisite Name="Microsoft .NET Framework 4.0" Link="http://www.microsoft.com/downloads/details.aspx?FamilyID=9cfb2d51-5ff4-4491-b0e5-b386f32c0992" Description="" />
+        <Prerequisite Name="Visual Studio 2010" Link="http://www.microsoft.com/visualstudio/en-us/products/2010-editions" Description="" />
+        <Prerequisite Name="ASP.NET MVC 2.0" Link="http://www.microsoft.com/downloads/details.aspx?familyid=C9BA1FE1-3BA8-439A-9E21-DEF90A8615A9" Description="" />
+        <Prerequisite Name="Windows Powershell" Link="http://www.microsoft.com/windowsserver2003/technologies/management/powershell/download.mspx" Description="" />
+        <Prerequisite Name="Microsoft Internet Information Server 7" Link="http://www.iis.net/" Description="" />
+      </Prerequisites>
+    </Group>
+  </Prerequisites>
+  <Units xmlns:d="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <Unit>
+      <Description>
+        Windows Azure is an internet-scale cloud computing and services platform hosted in Microsoft data centers, which provides an operating system and a set of developer services which can be used individually or together. It gives developers the choice to build web applications; applications running on connected devices, PCs, or servers; or hybrid solutions offering the best of both worlds. New or enhanced applications can be built using existing skills with the Visual Studio development environment and the .NET Framework. With its standards-based and interoperable approach, the services platform supports multiple internet protocols, including HTTP, REST, SOAP, and plain XML
+      </Description>
+      <Id>WindowsAzure</Id>
+      <Name>Windows Azure</Name>
+      <Labs>
+        <Lab>..\..\Labs\ECSTesting\Lab1TestUpdate2</Lab> <!-- Updated -->
+        <Lab>..\..\Labs\ECSTesting\Lab2TestUpdate2</Lab> <!-- Updated -->
+      </Labs>
+      <Demos>
+        <Demo>..\..\Demos\ECSTesting\Demo1TestUpdate2</Demo> <!-- Updated -->
+      </Demos>
+      <Presentations>
+		<Presentation>..\..\Presentations\ECSTesting\Presentation1TestUpdate2</Presentation> <!-- Updated -->
+      </Presentations>
+      <Videos>
+		<Video>..\..\Videos\ECSTesting\Video1TestUpdate</Video> <!-- Updated -->
+      </Videos>
+    </Unit>
+  </Units>
+  <CustomProperties>
+    <Property Name="AzureHomeLink" Value="http://www.microsoft.com/azure/default.mspx" />
+    <Property Name="AzureMsdnLink" Value="http://msdn.microsoft.com/en-us/azure/cc994380.aspx" />
+  </CustomProperties>
+  <Feedback>azcfeed@microsoft.com</Feedback>
+</Package>
