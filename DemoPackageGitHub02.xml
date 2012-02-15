@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/ContentFramework.Core.Models">
-  <Description>Testing package for GitHub 2</Description>
+  <Description>Testing package for GitHub 2. Content paths pointing to Southworks seattle git</Description>
   <Id>DemoTrainingCourse</Id>
   <Version>2.0</Version>
   <Name>Demo Training Course</Name>
@@ -39,14 +39,14 @@
       <Id>WindowsAzure</Id>
       <Name>Windows Azure</Name>
       <Labs>
-        <!-- <Lab>..\..\Labs\ECSTesting\Lab1TestUpdate2</Lab> -->
-        <!-- <Lab>..\..\Labs\ECSTesting\Lab2TestUpdate2</Lab> -->
+        <Lab>git@seattle.southworksinc.com:dpetools-qa\managed\development\DemoPackages\Content\Labs\ECSTesting\Lab1Test</Lab>
+        <Lab>git@seattle.southworksinc.com:dpetools-qa\managed\development\DemoPackages\Content\Labs\ECSTesting\Lab2Test</Lab>
       </Labs>
       <Demos>
-        <!-- <Demo>..\..\Demos\ECSTesting\Demo1TestUpdate2</Demo>  -->
+        <Demo>git@seattle.southworksinc.com:dpetools-qa\managed\development\DemoPackages\Content\Demos\ECSTesting\Demo1Test</Demo>
       </Demos>
       <Presentations>
-		<!-- <Presentation> ..\..\Presentations\ECSTesting\Presentation1TestUpdate2</Presentation> -->
+		<Presentation>git@seattle.southworksinc.com:dpetools-qa\managed\development\DemoPackages\Content\Presentations\ECSTesting\Presentation1Test</Presentation>
       </Presentations>
       <Videos>
 		<!-- <Video> ..\..\Videos\ECSTesting\Video1TestUpdate</Video> -->
