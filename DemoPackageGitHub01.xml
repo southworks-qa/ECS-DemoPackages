@@ -49,7 +49,7 @@
 		<Presentation>..\ECS-Contents.git\Presentations\ECSTesting\Presentation1Test</Presentation> <!-- Updated -->
       </Presentations>
       <Videos>
-		<Video>..\ECS-Contents.git\Videos\ECSTesting\Video1Test</Video> <!-- Updated -->
+		<!-- <Video>..\ECS-Contents.git\Videos\ECSTesting\Video1Test</Video> -->
       </Videos>
     </Unit>
   </Units>
