@@ -1,1 +1,7 @@
-This repository has the DemoPackages.xml files used to test the contents in others repositories here in GitHub
+This repository has the DemoPackages.xml files for testing purposes.
+
+DemoPackageGitHub01: it has all its contents paths pointing to ECS-Contents repository using relative URLs like "..\..\ECS-Contents.git\Labs\Lab1Test"
+
+DemoPackageGitHub02: its content paths point to contents in git@seattle.southworksinc.com:dpetools-qa using absolute URLs
+
+DemoPackageGitHub03: it has 1 lab path pointing to southworks' git and the rest of them to content repositories here in GitHub, like Demo1Test.git
