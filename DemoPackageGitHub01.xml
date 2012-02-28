@@ -46,6 +46,7 @@
         <Demo>..\..\ECS-Contents.git\Demos\ECSTesting\Demo1Test</Demo> <!-- Updated -->
       </Demos>
       <Presentations>
+		<Presentation>..\..\PresentationsPackage1.git\TrafficManager</Presentation>
 		<Presentation>..\..\ECS-Contents.git\Presentations\ECSTesting\Presentation1Test</Presentation> <!-- Updated -->
       </Presentations>
       <Videos>
